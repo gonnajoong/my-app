@@ -1,9 +1,18 @@
-import './App.scss';
+import React from 'react';
 
-function App() {
+//layouts
+import Header from './layouts/Header';
+import Footer from './layouts/Footer';
+
+//pages
+import Main from './pages/Main';
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <Header/>
+      <Main/>
+      <Footer/>
     </div>
   );
 }

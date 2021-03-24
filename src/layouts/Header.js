@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 
 class Header extends Component {
     constructor(props) {
@@ -10,7 +10,16 @@ class Header extends Component {
 
     render(){
         return (
-            <header>헤더</header>
+            <header className="gj-header-wrap">
+                <h1 className="gj-header-title">KGJ</h1>
+                <nav className="gj-nav-wrap">
+                    <ul>
+                        <li>BLOG</li>
+                        <li>ABOUT</li>
+                        <li>CONTACT</li>
+                    </ul>
+                </nav>
+            </header>
         );
     }
 }
