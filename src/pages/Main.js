@@ -13,7 +13,7 @@ class Main extends Component {
         return (
             <section className="gj-main-wrap">
                 <article className="gj-main-layout">
-                    
+                    dd
                 </article>
                 <article className="gj-main-layout" id="gjBlog">
                     BLOG 내용
