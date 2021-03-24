@@ -8,9 +8,9 @@ const config = {
 
   },
   output: {
-    publicPath: "/",
-    path: path.resolve(__dirname + "/build"),
-    filename: "bundle.js"
+    publicPath: "/dist",
+    path: path.resolve(__dirname + "/dist"),
+    filename: "main.js"
   },
   module: {
     rules: [
