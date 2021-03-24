@@ -3,14 +3,10 @@ const path = require('path');
 console.log();
 const config = {
   mode: 'development',
-  entry: {
-    bundle: ['./src/index.js'],
-
-  },
   output: {
-    publicPath: "/dist",
-    path: path.resolve(__dirname + "/dist"),
-    filename: "main.js"
+    publicPath: "/public",
+    path: path.resolve(__dirname + "/public"),
+    filename: "[name].js"
   },
   module: {
     rules: [
