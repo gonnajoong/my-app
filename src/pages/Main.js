@@ -12,8 +12,9 @@ class Main extends Component {
     render(){
         return (
             <section className="gj-main-wrap">
-                <article className="gj-main-layout">
-                    dd
+                <article className="gj-main-layout gj-main">
+                    <h1>K<span className="gj-border-text"> G </span>J.</h1>
+                    <p>프론트엔드 개발자</p>
                 </article>
                 <article className="gj-main-layout" id="gjBlog">
                     BLOG 내용
