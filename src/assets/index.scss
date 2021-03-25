@@ -1,17 +1,26 @@
 @import './reset.scss';
 
+html, body {
+    position: relative;
+    height: 100%;
+}
 
 body {
     display: inline-block;
-    padding-top: 60px;
+    padding: 60px 0;
     font-family: 'Noto Sans KR', 'Staatliches', sans-serif;
     width: 100%;
+}
+
+#root, .App {
+    height: 100%;
 }
 
 .gj-main-wrap {
     display: inline-block;
     max-width: 100%;
     width: 100%;
+    height: 100%;
 }
 
 @import './layout.scss';

@@ -11,14 +11,16 @@ class Header extends Component {
     render(){
         return (
             <header className="gj-header-wrap">
-                <h1 className="gj-header-title">KGJ</h1>
-                <nav className="gj-nav-wrap">
-                    <ul>
-                        <li>BLOG</li>
-                        <li>ABOUT</li>
-                        <li>CONTACT</li>
-                    </ul>
-                </nav>
+                <span className="gj-header-container">
+                    <h1 className="gj-header-title">KGJ</h1>
+                    <nav className="gj-nav-wrap">
+                        <ul>
+                            <li>BLOG</li>
+                            <li>ABOUT</li>
+                            <li>CONTACT</li>
+                        </ul>
+                    </nav>
+                </span>
             </header>
         );
     }
