@@ -21,9 +21,27 @@ export default {
         }, {
             src: "#",
             projectName: "프로젝트7",
+        }
+    ],
+    Skills: [
+        {
+            src: "#",
+            skillName: "HTML 5",
         }, {
             src: "#",
-            projectName: "프로젝트8",
-        },
+            skillName: "HTML 5",
+        }, {
+            src: "#",
+            skillName: "HTML 5",
+        }, {
+            src: "#",
+            skillName: "HTML 5",
+        }, {
+            src: "#",
+            skillName: "HTML 5",
+        }, {
+            src: "#",
+            skillName: "HTML 5",
+        }
     ]
 };

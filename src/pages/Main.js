@@ -7,15 +7,16 @@ class Main extends Component {
 
         this.state = {
             projectArr: CONSTANT.Projects,
+            skillArr: CONSTANT.Skills,
         }
     }
 
     componentDidMount (){
-        console.log(this.state.projectArr);
+        console.log(this.state.skillArr);
     }
 
     render(){
-        const {projectArr} = this.state;
+        const {projectArr, skillArr} = this.state;
         return (
             <section className="gj-main-wrap">
                 <article className="gj-main-layout gj-main">
@@ -39,7 +40,6 @@ class Main extends Component {
                             })
                             :
                             null
-                            
                         }
                     </ul>
                 </article>
@@ -75,15 +75,38 @@ class Main extends Component {
                     <ul className="gj-about-list grid">
                         <h2>기술</h2>
                         <li>
-                            <span>
-                                <img src="#" alt="언어 아이콘"/>
-                                <p>HTML5</p>
-                            </span>
+                            <ul className="gj-grid-wrap">
+                                {
+                                    skillArr && skillArr.length ?
+                                    skillArr.map((item, index) => {
+                                        return (
+                                            <li key={index}>
+                                                <span>
+                                                    <img src={item.src} alt="언어 아이콘"/>
+                                                    <p>{item.skillName}</p>
+                                                </span>
+                                            </li>
+                                        )
+                                    })
+                                    :
+                                    null
+                                }
+                            </ul>
                         </li>
                     </ul>
                 </article>
                 <article className="gj-main-layout gj-contact" id="gjContact">
-                    CONTACT 내용
+                    <h1>CONTACT</h1>
+                    <ul>
+                        <li>
+                            <strong>E-mail : </strong>
+                            <p>gonnajoong@gmail.com</p>
+                        </li>
+                        <li>
+                            <strong>Phone : </strong>
+                            <p>010-3290-6667</p>
+                        </li>
+                    </ul>
                 </article>
             </section>
         )
