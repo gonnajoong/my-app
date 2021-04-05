@@ -60,14 +60,21 @@ class Main extends Component {
                             <span className="gj-split-text-wrap gj-split-padding">
                                 <h2>화성 남양고등학교</h2>
                                 <span>2012. 03 ~ 2015. 02</span>
-                                <p>고등학교 3년 개근으로 졸업</p>
+                                <ul className="gj-project-list">
+                                    <li>▷ 관광경영과 3년 개근 졸업</li>
+                                    <li>▷ 조주기능사 자격증 취득</li>
+                                    <li>▷ 운전면허 1종 보통 취득</li>
+                                </ul>
                             </span>
                         </li>
                         <li className="gj-split-wrap">
                             <span className="gj-split-text-wrap ">
                                 <h2>안산 라인컴퓨터아트학원</h2>
                                 <span>2018. 04 ~ 2019. 02</span>
-                                <p>국비지원으로 스마트 UI / UX과정 교육 정상 수료</p>
+                                <ul className="gj-project-list">
+                                    <li>▷ 국비지원과정 10개월 개근수료</li>
+                                    <li>▷ 웹 디자이너 자격증 취득</li>
+                                </ul>
                             </span>
                             <span className="gj-split-image-wrap">
                                 <img src="#" alt="about-image"/>
@@ -80,10 +87,12 @@ class Main extends Component {
                             <span className="gj-split-text-wrap  gj-split-padding">
                                 <h2>(주)린코</h2>
                                 <span>2019. 05. 20 ~ 2020. 08. 31</span>
-                                <p>
-                                    스타트업 기업에서 라라벨 및 리액트를 이용한 API연동을 주로 담당하였으며 
-                                    카페24를 이용한 쇼핑몰 디자인과 리액트를 이용한 농업 ERP 프로젝트 참여경험또한 있습니다.
-                                </p>
+                                <ul className="gj-project-list">
+                                    <li>▷ 스타트업 기업의 특성상 다양한 개발업무참여.</li>
+                                    <li>▷ 라라벨 및 리액트 이용 API 연동 담당.</li>
+                                    <li>▷ 카페24이용 쇼핑몰 퍼블리싱 참여.</li>
+                                    <li>▷ 리액트와 Node.JS 활용, 농업 ERP 프로젝트 참여.</li>
+                                </ul>
                             </span>
                         </li>
                     </ul>

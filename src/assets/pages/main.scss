@@ -150,7 +150,7 @@
                     text-align: left;
                 }
 
-                li {
+                & > li {
                     display: inline-flex;
                     width: 100%;
                     font-size: 20px;
@@ -177,9 +177,18 @@
                                 & + span {
                                     display: inline-block;
                                     margin-bottom: 16px;
+                                }
+                            }
 
-                                    & + p {
-                                        line-height: 1.6;
+                            .gj-project-list {
+                                margin-top: 16px;
+                                
+                                li {
+                                    line-height: 1.6;
+                                    margin-bottom: 16px;
+
+                                    &:last-of-type {
+                                        margin: 0;
                                     }
                                 }
                             }
