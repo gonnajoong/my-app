@@ -12,6 +12,8 @@
 /build
 /dist
 public
+/public
+public/main.js
 
 # misc
 .DS_Store
