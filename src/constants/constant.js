@@ -25,34 +25,34 @@ export default {
     ],
     Skills: [
         {
-            src: "../images/icons/html.jpg",
+            src: "./images/icons/html.jpg",
             skillName: "HTML 5",
         }, {
-            src: "#",
+            src: "./images/icons/css.jpg",
             skillName: "CSS 3",
         }, {
-            src: "#",
+            src: "./images/icons/javascript.jpg",
             skillName: "Javascript",
         }, {
-            src: "#",
+            src: "./images/icons/react.jpg",
             skillName: "React",
         }, {
-            src: "#",
+            src: "./images/icons/php.jpg",
             skillName: "PHP",
         }, {
-            src: "#",
+            src: "./images/icons/jquery.jpg",
             skillName: "jquery",
         }, {
-            src: "#",
+            src: "./images/icons/laravel.jpg",
             skillName: "Laravel",
         }, {
-            src: "#",
+            src: "./images/icons/cafe24.jpg",
             skillName: "Cafe24",
         }, {
-            src: "#",
+            src: "./images/icons/nodejs.jpg",
             skillName: "Node.js",
         }, {
-            src: "#",
+            src: "./images/icons/mysql.jpg",
             skillName: "MySQL",
         }
     ]
