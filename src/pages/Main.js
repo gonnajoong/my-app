@@ -106,7 +106,7 @@ class Main extends Component {
                                         return (
                                             <li key={index}>
                                                 <span>
-                                                    <img src={item.src} alt="언어 아이콘"/>
+                                                    <img src="/my-app/images/icons/html.jpg" alt="언어-아이콘"/>
                                                     <p>{item.skillName}</p>
                                                 </span>
                                             </li>

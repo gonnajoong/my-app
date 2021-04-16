@@ -25,23 +25,35 @@ export default {
     ],
     Skills: [
         {
-            src: "#",
+            src: "../images/icons/html.jpg",
             skillName: "HTML 5",
         }, {
             src: "#",
-            skillName: "HTML 5",
+            skillName: "CSS 3",
         }, {
             src: "#",
-            skillName: "HTML 5",
+            skillName: "Javascript",
         }, {
             src: "#",
-            skillName: "HTML 5",
+            skillName: "React",
         }, {
             src: "#",
-            skillName: "HTML 5",
+            skillName: "PHP",
         }, {
             src: "#",
-            skillName: "HTML 5",
+            skillName: "jquery",
+        }, {
+            src: "#",
+            skillName: "Laravel",
+        }, {
+            src: "#",
+            skillName: "Cafe24",
+        }, {
+            src: "#",
+            skillName: "Node.js",
+        }, {
+            src: "#",
+            skillName: "MySQL",
         }
     ]
 };
