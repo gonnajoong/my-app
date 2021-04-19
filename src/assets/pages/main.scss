@@ -161,6 +161,7 @@
 
                         & > span {
                             width: 50%;
+                            height: 500px;
 
                             &.gj-split-text-wrap {
                                 padding-top: 44px;
@@ -199,16 +200,6 @@
                         background-size: cover;
                         background-position: center;
                         background-repeat: no-repeat;
-
-                        &.image-01 {
-                            background-image: url("../../images/banners/namyang_highschool.jpg");
-                        }
-                        &.image-02 {
-                            background-image: url("../../images/banners/ansan_line_art.jpg");
-                        }
-                        &.image-03 {
-                            background-image: url("../../images/banners/ace_tower.jpg");
-                        }
                     }
                 }
 
