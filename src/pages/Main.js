@@ -54,9 +54,7 @@ class Main extends Component {
                     <ul className="gj-about-list">
                         <h2>내가 걸어온 길</h2>
                         <li className="gj-split-wrap">
-                            <span className="gj-split-image-wrap">
-                                <img src="#" alt="about-image"/>
-                            </span>
+                            <span className="gj-split-image-wrap image-01"></span>
                             <span className="gj-split-text-wrap gj-split-padding">
                                 <h2>화성 남양고등학교</h2>
                                 <span>2012. 03 ~ 2015. 02</span>
@@ -76,14 +74,10 @@ class Main extends Component {
                                     <li>▷ 웹 디자이너 자격증 취득</li>
                                 </ul>
                             </span>
-                            <span className="gj-split-image-wrap">
-                                <img src="#" alt="about-image"/>
-                            </span>
+                            <span className="gj-split-image-wrap image-02"></span>
                         </li>
                         <li className="gj-split-wrap">
-                            <span className="gj-split-image-wrap">
-                                <img src="#" alt="about-image"/>
-                            </span>
+                            <span className="gj-split-image-wrap image-03"></span>
                             <span className="gj-split-text-wrap  gj-split-padding">
                                 <h2>(주)린코</h2>
                                 <span>2019. 05. 20 ~ 2020. 08. 31</span>
