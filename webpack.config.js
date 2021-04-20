@@ -35,6 +35,9 @@ const config = {
         new miniCssExtractPlugin({
           filename: '[name].css',
           chunkFilename: '[name].css'
+      }),
+      new webpack.DefinePlugin({
+        '__REACT_DEVTOOLS_GLOBAL_HOOK__': '({ isDisabled: true })'
       })
     ]
 }

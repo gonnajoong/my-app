@@ -32,9 +32,7 @@ const App = () => {
         <Alert/>
         <ModalMainPage/>
 
-        <Header/>
-        <Main/>
-        <Footer/>
+        
       </div>
     </AppProvider>
   );
