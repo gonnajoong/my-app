@@ -7,13 +7,36 @@ import Footer from './layouts/Footer';
 //pages
 import Main from './pages/Main';
 
+//modals
+import ModalMainPage from './components/modals/MainPageModal';
+import Alert from './components/Alert';
+
+//Providers
+import {MainPageModalProvider} from './contexts/modal/mainPageModal';
+import {AlertProvider} from './contexts/alert';
+
+const AppProvider = ({contexts, children}) => contexts.reduce(
+  (prev, context) => React.createElement(context, {
+      children: prev
+}),
+  children
+);
+
 const App = () => {
   return (
-    <div className="App">
-      <Header/>
-      <Main/>
-      <Footer/>
-    </div>
+    <AppProvider contexts={[
+      AlertProvider,
+      MainPageModalProvider
+    ]}>
+      <div className="App">
+        <Alert/>
+        <ModalMainPage/>
+
+        <Header/>
+        <Main/>
+        <Footer/>
+      </div>
+    </AppProvider>
   );
 }
 

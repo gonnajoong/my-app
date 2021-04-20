@@ -1,4 +1,16 @@
 export default {
+    defaultAlertState: {
+        isVisible: false,
+        alertText: undefined,
+        cancelClassName: undefined,
+        cancelText: '확인',
+        cancelCallback: undefined,
+        cancelStyle: undefined,
+        submitClassName: undefined,
+        submitText: undefined,
+        submitCallback: undefined,
+        submitStyle: undefined
+    },
     Projects: [
         {
             src: "#",
